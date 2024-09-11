@@ -1,0 +1,57 @@
+@import "../../common/color.scss";
+
+.detail-section{
+    min-height: 80.7vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px;
+    color: $font-primary;
+    font-weight: 400;
+}
+.section-left{
+    float: left;
+}
+.title{
+    color: $font-primary;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.description{
+    padding-left: 3px;
+    margin-top: 20px;
+    display: flex;
+    color: $font-secondary;
+span{
+    margin-right: 20px;
+    justify-content: space-between;
+   
+}
+
+}
+.plot{
+    margin-top: 20px;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-right: 40px;
+    
+}
+.info{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    span{
+        padding: 20px 0;
+        color: $font-primary;
+        :first-child{
+            color: $font-secondary;
+        }
+    }
+    
+}
+.section-right{
+    height: 69vh;
+  width: 50%;
+  img{
+    height: 100%;
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../common/color.scss";
+.movie-wrapper{
+    margin: 20px;
+    padding: 0;
+}
+.movie-list{
+    margin: 20px 10px ;
+    h2{
+        color: $font-secondary;
+        margin: 15px;
+    }
+}
+//.movie-container{
+   // display: grid;
+   // gap: 15px;
+   // grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+   
+//}
+.description span{
+    padding: 10px;
+
+}
