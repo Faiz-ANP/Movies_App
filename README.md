@@ -1,3 +1,3 @@
-# Movies-app using react and redux
+# React + Redux toolkt
 
 
