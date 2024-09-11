@@ -1,3 +1,3 @@
-# React + Redux toolkt
+# React + Redux toolkit
 
 
